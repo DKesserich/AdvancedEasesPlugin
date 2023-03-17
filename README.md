@@ -7,37 +7,55 @@ Included easing functions:
 
 Ease In Back
 
+<img src="https://github.com/DKesserich/AdvancedEasesPlugin/blob/main/gifs/inBack.gif" width="500">
+
 https://easings.net/#easeInBack
 
 Ease Out Back
+
+<img src="https://github.com/DKesserich/AdvancedEasesPlugin/blob/main/gifs/outBack.gif" width="500">
 
 https://easings.net/#easeOutBack
 
 Ease InOut Back
 
+<img src="https://github.com/DKesserich/AdvancedEasesPlugin/blob/main/gifs/inOutBack.gif" width="500">
+
 https://easings.net/#easeInOutBack
 
 Ease In Elastic
+
+<img src="https://github.com/DKesserich/AdvancedEasesPlugin/blob/main/gifs/inElastic.gif" width="500">
 
 https://easings.net/#easeInElastic
 
 Ease Out Elastic
 
+<img src="https://github.com/DKesserich/AdvancedEasesPlugin/blob/main/gifs/outElastic.gif" width="500">
+
 https://easings.net/#easeOutElastic
 
 Ease InOut Elastic
+
+<img src="https://github.com/DKesserich/AdvancedEasesPlugin/blob/main/gifs/inOutElastic.gif" width="500">
 
 https://easings.net/#easeInOutElastic
 
 Ease In Bounce
 
+<img src="https://github.com/DKesserich/AdvancedEasesPlugin/blob/main/gifs/inBounce.gif" width="500">
+
 https://easings.net/#easeInBounce
 
 Ease Out Bounce
 
+<img src="https://github.com/DKesserich/AdvancedEasesPlugin/blob/main/gifs/outBounce.gif" width="500">
+
 https://easings.net/#easeOutBounce
 
 Ease InOut Bounce
+
+<img src="https://github.com/DKesserich/AdvancedEasesPlugin/blob/main/gifs/inOutBounce.gif" width="500">
 
 https://easings.net/#easeInOutBounce
 

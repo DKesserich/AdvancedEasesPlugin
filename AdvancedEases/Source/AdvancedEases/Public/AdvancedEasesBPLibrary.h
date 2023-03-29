@@ -1,3 +1,6 @@
+/* Copyright (c) 2023 David Lejeune
+Licensed under Creative Commons Attribution Sharealike 4.0*/
+
 #pragma once
 
 #include "CoreMinimal.h"

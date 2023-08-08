@@ -53,7 +53,7 @@ float UAdvancedEasesBPLibrary::AdvancedEase_Float(EAdvancedEases EaseType, float
     }
 }
 
-FVector UAdvancedEasesBPLibrary::AdvancedEase_Vector(EAdvancedEases EaseType, FVector Start, FVector End, float Delta)
+FVector UAdvancedEasesBPLibrary::AdvancedEase_Vector(EAdvancedEases EaseType, const FVector& Start, const FVector& End, float Delta)
 {
     FVector easeDelta = End - Start;
 

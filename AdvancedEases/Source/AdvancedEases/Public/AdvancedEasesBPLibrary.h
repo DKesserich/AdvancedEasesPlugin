@@ -50,7 +50,7 @@ public:
 	UFUNCTION(BlueprintPure, meta = (DisplayName = "Advanced Ease (Float)"), Category = "Interpolation")
 		static float AdvancedEase_Float(EAdvancedEases EaseType, float Delta, float Start = 0.0f, float End = 1.0f);
 	UFUNCTION(BlueprintPure, meta = (DisplayName = "Advanced Ease (Vector)"), Category = "Interpolation")
-		static FVector AdvancedEase_Vector(EAdvancedEases EaseType, FVector Start, FVector End, float Delta);
+		static FVector AdvancedEase_Vector(EAdvancedEases EaseType, const FVector& Start, const FVector& End, float Delta);
 
 private:
 

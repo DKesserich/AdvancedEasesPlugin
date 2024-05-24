@@ -59,6 +59,5 @@ Ease InOut Bounce
 
 https://easings.net/#easeInOutBounce
 
-I am making the code available under the Creative Commons Attribution Sharealike 4.0 license. 
+I am making the code available under an MIT License. 
 
-Some of the included game assets are from the Unreal Third Person Template and the Unreal Content Examples, and licensed accordingly.

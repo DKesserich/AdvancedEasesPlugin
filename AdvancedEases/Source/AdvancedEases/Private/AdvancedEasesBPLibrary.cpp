@@ -25,7 +25,7 @@ SOFTWARE.
 #include "AdvancedEasesBPLibrary.h"
 #include "AdvancedEases.h"
 
-float UAdvancedEasesBPLibrary::AdvancedEase_Float(EAdvancedEases EaseType, float Delta, float Start, float End)
+float UAdvancedEasesBPLibrary::AdvancedEase_Float(EAdvancedEases EaseType, float Alpha, float Start, float End)
 {
     float easeDelta = End - Start;
 
@@ -33,52 +33,52 @@ float UAdvancedEasesBPLibrary::AdvancedEase_Float(EAdvancedEases EaseType, float
     {
     case EAdvancedEases::AE_INBACK:
     {
-        return easeDelta * EaseInBack(Delta) + Start;
+        return easeDelta * EaseInBack(Alpha) + Start;
     }
     case EAdvancedEases::AE_OUTBACK:
     {
-        return easeDelta * EaseOutBack(Delta) + Start;
+        return easeDelta * EaseOutBack(Alpha) + Start;
     }
     case EAdvancedEases::AE_INOUTBACK:
     {
-        return easeDelta * EaseInOutBack(Delta) + Start;
+        return easeDelta * EaseInOutBack(Alpha) + Start;
     }
     case EAdvancedEases::AE_INBOUNCE:
     {
-        return easeDelta * EaseInBounce(Delta) + Start;
+        return easeDelta * EaseInBounce(Alpha) + Start;
     }
     case EAdvancedEases::AE_OUTBOUNCE:
     {
-        return easeDelta * EaseOutBounce(Delta) + Start;
+        return easeDelta * EaseOutBounce(Alpha) + Start;
     }
     case EAdvancedEases::AE_INOUTBOUNCE:
     {
-        return easeDelta * EaseInOutBounce(Delta) + Start;
+        return easeDelta * EaseInOutBounce(Alpha) + Start;
     }
     case EAdvancedEases::AE_INELASTIC:
     {
-        return easeDelta * EaseInElastic(Delta) + Start;
+        return easeDelta * EaseInElastic(Alpha) + Start;
     }
     case EAdvancedEases::AE_OUTELASTIC:
     {
-        return easeDelta * EaseOutElastic(Delta) + Start;
+        return easeDelta * EaseOutElastic(Alpha) + Start;
     }
     case EAdvancedEases::AE_INOUTELASTIC:
     {
-        return easeDelta * EaseInOutElastic(Delta) + Start;
+        return easeDelta * EaseInOutElastic(Alpha) + Start;
     }
     default:
     {
-        return easeDelta * Delta + Start;
+        return easeDelta * Alpha + Start;
     }
     }
 }
 
-FVector UAdvancedEasesBPLibrary::AdvancedEase_Vector(EAdvancedEases EaseType, const FVector& Start, const FVector& End, float Delta)
+FVector UAdvancedEasesBPLibrary::AdvancedEase_Vector(EAdvancedEases EaseType, const FVector& Start, const FVector& End, float Alpha)
 {
     FVector easeDelta = End - Start;
 
-    return (easeDelta * AdvancedEase_Float(EaseType, Delta)) + Start;
+    return (easeDelta * AdvancedEase_Float(EaseType, Alpha)) + Start;
 }
 
 float UAdvancedEasesBPLibrary::EaseInBack(float Delta)
